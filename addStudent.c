@@ -62,7 +62,7 @@ void addStudent() {
         else
         {
             printf("The entered registration number is either assigned or invalid.\n");
-            while (getchar() != '\n'); // Clear the input buffer
+            while (getchar() != '\n');
         }
     }
 
@@ -73,7 +73,7 @@ void addStudent() {
             break;
         } else {
             printf("Invalid age. Age must be greater than 20 and less than 35.\n");
-            while (getchar() != '\n'); // Clear the input buffer
+            while (getchar() != '\n');
         }
     }
 
